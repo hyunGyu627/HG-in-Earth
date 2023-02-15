@@ -5,15 +5,15 @@
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
+    margin: 0%;
   }
 
     #Main {
-    position: fixed;
+    position: relative;
     color: #f1f1f1;
     font-size: 50px;
-    left: 1200px;
-    top: 160px;
-    padding-right: 1000px;
+    text-align: center;
+    margin: 0%;
   }
 
     #a {
@@ -21,9 +21,15 @@
   }
 
   #sub {
-    position: fixed;
+    position: relative;
     color: white;
-    top: 560px;
-    left: 1200px;
     font-size: 12px;
+    text-align: center;
+  }
+  body {
+    margin: 0%;
+  }
+  #subM, #subS {
+    margin-left: 10%;
+    margin-right: 10%;
   }
